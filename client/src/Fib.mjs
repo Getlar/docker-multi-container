@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-
+const React = require('react');
+const { Component } = require('react');
 const axios = require('axios');
+
 class Fib extends Component {
   state = {
     seenIndexes: [],
