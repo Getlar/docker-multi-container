@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import OtherPage from './OtherPage';
-import Fib from './Fib';
+import Fib from './Fib.mjs';
 
 function App() {
   return (
