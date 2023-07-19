@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import axios from './lib/axios.js';
 
+const axios = require('axios');
 class Fib extends Component {
   state = {
     seenIndexes: [],
